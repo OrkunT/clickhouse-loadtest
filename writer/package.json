@@ -1,0 +1,14 @@
+{
+  "name": "ch-writer",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@clickhouse/client": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "nanoid": "^5.0.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

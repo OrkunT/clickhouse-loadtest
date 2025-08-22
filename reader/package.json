@@ -1,0 +1,13 @@
+{
+  "name": "ch-reader",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@clickhouse/client": "^1.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
