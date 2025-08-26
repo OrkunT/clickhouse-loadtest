@@ -1,0 +1,16 @@
+{
+  "name": "writer-kafka",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer_ch_sink.js"
+  },
+  "dependencies": {
+    "@clickhouse/client": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "kafkajs": "^2.2.4",
+    "nanoid": "^5.0.7"
+  }
+}
